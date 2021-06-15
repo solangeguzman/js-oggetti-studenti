@@ -8,8 +8,9 @@ var nameStudent={
     surname:'Ferrari',
     age:'30'
 }
-console.log(nameStudent)
+console.log(nameStudent);
 var resultOggett = document.getElementById('output');
-for(var x in nameStudente){
-    resultOggett.innetHTML += x  +':'+ nameStudent[x]
+
+for (var x in nameStudent) {
+    resultOggett.innerHTML += x + " " + nameStudent[x] + " " + "<br/>";
 }
