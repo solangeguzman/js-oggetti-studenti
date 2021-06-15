@@ -22,9 +22,9 @@ for (var x in nameStudent) {
 
 var infoStudent= {
     users:[
-        {name:'Camilla',surname:'petrilli', age:'24'},
-        {name:'Carlo', surname:'bianchi', age:'25'},
-        {name:'marco', surname:'rubino', age:'44'},
+        {nome:'Camilla',cognome:'petrilli', età:'24'},
+        {nome:'Carlo', cognome:'bianchi', età:'25'},
+        {nome:'marco', cognome:'rubino', età:'44'},
     ]
 }
 
@@ -40,9 +40,9 @@ for(var x = 0; x < infoStudent.users.length; x++) {
 // - uno per ciascuna proprietà - di aggiungere UN SOLO 
 // oggetto studente inserendo nell’ordine: nome, cognome e età.
 infoStudent.users.push({
-  name: prompt('Inserisci il tuo nome'),
-  surName:prompt('Inserisci il tuo cognome'),
-  age:  prompt('Inserisci la tua età')
+  nome: prompt('Inserisci il tuo nome'),
+  cognome:prompt('Inserisci il tuo cognome'),
+  età:  prompt('Inserisci la tua età')
     
 });console.log(infoStudent)        
 
